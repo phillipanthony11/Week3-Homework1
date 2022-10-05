@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz homework</title>
+</head>
+<body>
+    <div class="container active">
+        <h3 class="intro">Click the Start button below to start the quiz</h3>
+        <button id="startbutton" class="startbutton1">Start</button>
+    </div>
+
+
+
+     <div class="container hidden" id="containerOne">
+        <div class="question">question: ______ Javascipt is also called client-side Javascript</div>
+        <button class="response correct">Navigation</button>
+        <button class="response">Livewire</button>
+        <button class="response">Limewire</button>
+        <button class="response">Native</button>
+    </div>
+
+    <div class="container hidden" id="containerTwo">
+        <div class="question">'______ Javascript is also called server-side Javascript</div>
+        <button class="response">Native</button>
+        <button class="response correct">Livewire</button>
+        <button class="response">Limewire</button>
+        <button class="response">Navigation</button>
+    </div>
+
+    <div class="container hidden" id="containerThree">
+        <div class="question">What should appear at the very end of your Javascipt?</div>
+        <button class="response correct">Script</button>
+        <button class="response">Floor</button>
+        <button class="response">Class</button>
+        <button class="response">End statement</button>
+    </div>
+    
+    <div class="container hidden" id="containerFour">
+        <div class="question">Which of the following attribute can hold the Javascript version?</div>
+        <button class="response">Version</button>
+        <button class="response">Script</button>
+        <button class="response">None</button>
+        <button class="response correct">Language</button>
+    </div>
+
+    <div class="container hidden" id="containerFive">
+        <div class="question">Inside which HTML element do we put the Javascript?</div>
+        <button class="response correct">Script</button>
+        <button class="response">Js</button>
+        <button class="response">Java</button>
+        <button class="response">Javascript</button>
+    </div>
+         
+    <div class="container hidden" id="containerSix">
+        <div class="question">Choose the server-side Javascipt object</div>
+        <button class="response correct">File</button>
+        <button class="response">Date</button>
+        <button class="response">Fileupload</button>
+        <button class="response">Function</button>
+    </div>
+         
+    <div class="container hidden" id="containerSeven">
+        <div class="question">Choose the client-side Javascript object</div>
+        <button class="response">Function</button>
+        <button class="response">File</button>
+        <button class="response correct">Fileupload</button>
+        <button class="response">None</button>
+    </div>
+         
+    <div class="container hidden" id="containerEight">
+        <div class="question">Which is not a Javascript operator?</div>
+        <button class="response">New</button>
+        <button class="response">Ajective</button>
+        <button class="response">Delete</button>
+        <button class="response correct">This</button>
+    </div>
+
+    <div class="container hidden">
+        <p class="score">Your score: <span id="yourScore"></span></p>
+        <label for="initials">Enter your initials here:</label>
+        <input type="text" name="initials" id="initials">
+        <button type="submit" id="submitScore">Submit</button>
+    </div>
+
+    <div class="container hidden">
+        <ol id="scoreboard">
+        </ol>
+        <button id="restartbutton" class="restartbutton">Restart</button>
+    </div>
+
+    <div id="time">
+        <p class="timer">50</p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

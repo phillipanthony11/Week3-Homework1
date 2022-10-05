@@ -1,0 +1,24 @@
+body {
+    width: 50%;
+    height: 800px;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+}
+
+
+.container {
+    background-color: pink;
+    justify-content: center;
+    padding: 9px;
+    margin-left: 0 auto;
+    border: 5px color blue solid;
+}
+
+.container.hidden {
+    display: none;
+}
+
+.container.active {
+    display: block;
+}
