@@ -10,3 +10,6 @@ I struggled with the decision of putting my questions fully in javascript but de
 ! [An enter you initials screen reached at the end of the game](assets/2nd.png)
 
 ## Links
+
+https://github.com/phillipanthony11/Week3-Homework1 git hub repo
+https://phillipanthony11.github.io/Week3-Homework1/ website link
